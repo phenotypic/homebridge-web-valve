@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tommrodrigues/homebridge-web-valve.git"
+    "url": "git+https://github.com/phenotypic/homebridge-web-valve.git"
   },
   "keywords": [
     "homebridge-plugin"
   ],
-  "author": "Tom Rodrigues",
+  "author": "phenotypic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tommrodrigues/homebridge-web-valve/issues"
+    "url": "https://github.com/phenotypic/homebridge-web-valve/issues"
   },
-  "homepage": "https://github.com/Tommrodrigues/homebridge-web-valve#readme"
+  "homepage": "https://github.com/phenotypic/homebridge-web-valve#readme"
 }

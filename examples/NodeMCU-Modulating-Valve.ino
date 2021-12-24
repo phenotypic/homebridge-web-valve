@@ -4,7 +4,7 @@
 #include <ESP8266mDNS.h>
 #include <ArduinoJson.h>
 
-// GitHub Page = https://github.com/Tommrodrigues/homebridge-web-valve
+// GitHub Page = https://github.com/phenotypic/homebridge-web-valve
 
 // Script Type = Modulating relay
 
