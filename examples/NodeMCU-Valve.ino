@@ -4,10 +4,6 @@
 #include <ESP8266mDNS.h>
 #include <ArduinoJson.h>
 
-// GitHub Page = https://github.com/phenotypic/homebridge-web-valve
-
-// Script Type = Switch relay
-
 // D7 = Relay
 
 /////////////////// CHANGE THESE VALUES //////////////////////
