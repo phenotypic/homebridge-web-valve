@@ -41,7 +41,7 @@ Find script samples for the valve controller in the _examples_ folder.
 | `name` | Name to appear in the Home app | N/A |
 | `apiroute` | Root URL of your device | N/A |
 
-## Optional fields
+### Optional fields
 | Key | Description | Default |
 | --- | --- | --- |
 | `valveType` | Icon to be shown in the Home app (`0`, `1`, `2`, `3`) | `0` |
