@@ -94,11 +94,15 @@ WebValve.prototype = {
         callback(error)
       } else {
         this.log.debug('Device response: %s', responseBody)
-        var json = JSON.parse(responseBody)
-        this.service.getCharacteristic(Characteristic.Active).updateValue(json.currentState)
-        this.service.getCharacteristic(Characteristic.InUse).updateValue(json.currentState)
-        this.log.debug('Updated state to: %s', json.currentState)
-        callback()
+        try {
+          var json = JSON.parse(responseBody)
+          this.service.getCharacteristic(Characteristic.Active).updateValue(json.currentState)
+          this.service.getCharacteristic(Characteristic.InUse).updateValue(json.currentState)
+          this.log.debug('Updated state to: %s', json.currentState)
+          callback()
+        } catch (e) {
+          this.log.warn('Error parsing status: %s', e.message)
+        }
       }
     }.bind(this))
   },
