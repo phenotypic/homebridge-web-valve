@@ -32,3 +32,11 @@ npm install -g homebridge-web-valve
      }
 ]
 ```
+
+## Wiring
+
+| NodeMCU | Relay Module |
+| --- | --- |
+| `3V3` | `VCC` |
+| `GND` | `GND` |
+| `D7` | `IN1` |
